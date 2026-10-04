@@ -1,0 +1,220 @@
+PLATEVISION IMAGE NOTES
+Repeat the section below for every photo.
+Replace bracketed text with your information.
+If something is not known, write Unknown rather than guessing.
+
+------------------------------------------------------------
+PLATEVISION IMAGE NOTES
+------------------------------------------------------------
+Image filename: dataset1.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Center rear of red car
+  Registration text: MH15FT9431
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Other visible plates or comments:
+  No other clearly readable plates.
+
+------------------------------------------------------------
+Image filename: dataset2.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Center-right, rear of silver Suzuki car
+  Registration text: UP32CR0423
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Plate 2:
+  Location in picture: Left side, rear of silver Suzuki Ritz
+  Registration text: DL3CCA1750
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Other visible plates or comments:
+  Several additional vehicles have visible plates, but their registration text is too small or unclear to transcribe reliably.
+
+------------------------------------------------------------
+Image filename: dataset3.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Bottom-center, rear of white traffic police vehicle
+  Registration text: JK02BA5065
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Other visible plates or comments:
+  No other clearly readable plates.
+
+------------------------------------------------------------
+Image filename: dataset4.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Lower-left/center, rear of motorcycle
+  Registration text: DL3SCW6192
+  Vehicle type: Motorcycle
+  Text color: Dark
+  Number of text rows: 2
+
+Plate 2:
+  Location in picture: Center, rear of motorcycle carrying the woman in a blue sari
+  Registration text: DL5SAH9529
+  Vehicle type: Motorcycle
+  Text color: Dark
+  Number of text rows: 2
+
+Other visible plates or comments:
+  Several cars, motorcycles and an auto-rickshaw are visible, but their plates are obscured or too unclear to transcribe.
+
+------------------------------------------------------------
+Image filename: dataset5.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Front center of white Suzuki vehicle
+  Registration text: RJ45CJ6865
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Other visible plates or comments:
+  No other clearly readable plates.
+
+------------------------------------------------------------
+Image filename: dataset6.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Front-left, white Suzuki car
+  Registration text: HP885801
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Plate 2:
+  Location in picture: Front-right, white Hyundai car
+  Registration text: KL43C5336
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 1
+
+Other visible plates or comments:
+  Additional vehicles are visible, but their plates are too small or obscured to read reliably.
+
+------------------------------------------------------------
+Image filename: dataset7.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Center rear of white vintage car
+  Registration text: WB02F1145
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 2
+
+Other visible plates or comments:
+  No other clearly readable plates.
+
+------------------------------------------------------------
+Image filename: dataset8.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Front center of motorcycle
+  Registration text: WB34CG4538
+  Vehicle type: Motorcycle
+  Text color: Dark
+  Number of text rows: 1
+
+Other visible plates or comments:
+  No other clearly readable plates.
+
+------------------------------------------------------------
+Image filename: dataset9.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Top-left section of collage
+  Registration text: RJ23PA2262
+  Vehicle type: Unsure
+  Text color: Dark
+  Number of text rows: 2
+
+Plate 2:
+  Location in picture: Top-right section of collage
+  Registration text: UP14DJ1422
+  Vehicle type: Motorcycle
+  Text color: Dark
+  Number of text rows: 2
+
+Plate 3:
+  Location in picture: Bottom-left section of collage
+  Registration text: RJ23SM2824
+  Vehicle type: Motorcycle
+  Text color: Dark
+  Number of text rows: 2
+
+Plate 4:
+  Location in picture: Bottom-right section of collage
+  Registration text: BR06PD5528
+  Vehicle type: Car
+  Text color: Dark
+  Number of text rows: 2
+
+Other visible plates or comments:
+  All 4 plates read clearly
+
+------------------------------------------------------------
+Image filename: dataset10.jpg
+Source webpage: Google
+License or permission: Free to use
+Capture or source group: Unknown
+Same vehicle as another photo: None known
+
+Plate 1:
+  Location in picture: Center rear of blue scooter
+  Registration text: KL02BP7403
+  Vehicle type: Motorcycle
+  Text color: Dark
+  Number of text rows: 2
+
+Other visible plates or comments:
+  No other clearly readable plates.
+
+------------------------------------------------------------
