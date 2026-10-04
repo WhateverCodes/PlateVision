@@ -1,0 +1,23 @@
+{
+  "dataset": "data/accuracy_check_2026_09_21/val.json",
+  "images": 30,
+  "models": {
+    "My model": {
+      "exact": 6,
+      "accepted_correct": 4,
+      "accepted_wrong": 2,
+      "character_error_rate": 0.3187919463087248,
+      "mean_seconds": 0.020413586665138914,
+      "results_omitted_count": 30
+    },
+    "Pretrained model": {
+      "exact": 13,
+      "accepted_correct": 7,
+      "accepted_wrong": 3,
+      "character_error_rate": 0.12080536912751678,
+      "mean_seconds": 0.01629849000116034,
+      "results_omitted_count": 30
+    }
+  },
+  "note": "Same unmodified crops, default confidence threshold. Models run sequentially with two CPU threads. Development evaluation only; pretrained training-data overlap is unknown. Not full-photo or final-test accuracy."
+}

@@ -1,0 +1,183 @@
+{
+  "normalization": "32x32 white-on-black, divided by 255, identical training/inference",
+  "architecture": "Three Conv+BatchNorm+SiLU stages, two-layer classifier, dropout 0.25. Existing depth retained.",
+  "class_counts": {
+    "0": 42,
+    "1": 43,
+    "2": 38,
+    "3": 38,
+    "4": 42,
+    "5": 37,
+    "6": 42,
+    "7": 43,
+    "8": 40,
+    "9": 42,
+    "A": 37,
+    "B": 38,
+    "C": 33,
+    "D": 35,
+    "E": 39,
+    "F": 32,
+    "G": 40,
+    "H": 41,
+    "I": 28,
+    "J": 38,
+    "K": 41,
+    "L": 40,
+    "M": 37,
+    "N": 30,
+    "O": 31,
+    "P": 42,
+    "Q": 37,
+    "R": 38,
+    "S": 37,
+    "T": 34,
+    "U": 29,
+    "V": 30,
+    "W": 27,
+    "X": 30,
+    "Y": 35,
+    "Z": 21
+  },
+  "verified_class_counts": {
+    "0": 13,
+    "1": 14,
+    "2": 13,
+    "3": 13,
+    "4": 13,
+    "5": 13,
+    "6": 13,
+    "7": 13,
+    "8": 14,
+    "9": 12,
+    "A": 12,
+    "B": 12,
+    "C": 9,
+    "D": 9,
+    "E": 7,
+    "F": 3,
+    "G": 10,
+    "H": 12,
+    "I": 0,
+    "J": 9,
+    "K": 9,
+    "L": 12,
+    "M": 6,
+    "N": 3,
+    "O": 1,
+    "P": 12,
+    "Q": 2,
+    "R": 12,
+    "S": 9,
+    "T": 5,
+    "U": 5,
+    "V": 0,
+    "W": 2,
+    "X": 1,
+    "Y": 5,
+    "Z": 1
+  },
+  "baseline": {
+    "plate": {
+      "exact": 13,
+      "accepted_correct": 8,
+      "accepted_wrong": 1,
+      "character_errors": 131,
+      "results_omitted_count": 45
+    },
+    "synthetic_characters": {
+      "accuracy": 1.0,
+      "loss": 0.006769242230802774,
+      "images": 216,
+      "scope": "Synthetic validation glyphs, not real character accuracy"
+    }
+  },
+  "trials": [
+    {
+      "lr": 3e-06,
+      "curve": [
+        {
+          "stage": 1,
+          "steps": 40,
+          "train_loss": 0.0899410872545559,
+          "synthetic_validation": {
+            "accuracy": 1.0,
+            "loss": 0.0060104322619736195,
+            "images": 216,
+            "scope": "Synthetic validation glyphs, not real character accuracy"
+          },
+          "plate": {
+            "exact": 13,
+            "accepted_correct": 8,
+            "accepted_wrong": 1,
+            "character_errors": 131,
+            "results_omitted_count": 45
+          }
+        },
+        {
+          "stage": 2,
+          "steps": 40,
+          "train_loss": 0.10490850254427642,
+          "synthetic_validation": {
+            "accuracy": 1.0,
+            "loss": 0.005484248977154493,
+            "images": 216,
+            "scope": "Synthetic validation glyphs, not real character accuracy"
+          },
+          "plate": {
+            "exact": 13,
+            "accepted_correct": 8,
+            "accepted_wrong": 1,
+            "character_errors": 131,
+            "results_omitted_count": 45
+          }
+        }
+      ]
+    },
+    {
+      "lr": 3e-05,
+      "curve": [
+        {
+          "stage": 1,
+          "steps": 40,
+          "train_loss": 0.08927045706659556,
+          "synthetic_validation": {
+            "accuracy": 1.0,
+            "loss": 0.0032864571548998356,
+            "images": 216,
+            "scope": "Synthetic validation glyphs, not real character accuracy"
+          },
+          "plate": {
+            "exact": 11,
+            "accepted_correct": 8,
+            "accepted_wrong": 2,
+            "character_errors": 141,
+            "results_omitted_count": 45
+          }
+        },
+        {
+          "stage": 2,
+          "steps": 40,
+          "train_loss": 0.0970636397774797,
+          "synthetic_validation": {
+            "accuracy": 1.0,
+            "loss": 0.0022510273847728968,
+            "images": 216,
+            "scope": "Synthetic validation glyphs, not real character accuracy"
+          },
+          "plate": {
+            "exact": 13,
+            "accepted_correct": 8,
+            "accepted_wrong": 2,
+            "character_errors": 140,
+            "results_omitted_count": 45
+          }
+        }
+      ]
+    }
+  ],
+  "selection_rule": "Promote only >=18/45 exact, >=8 correct accepted and <=1 wrong accepted; otherwise freeze current model.",
+  "note": "Existing 45 development plate crops are repeatedly used for selection; not independent final-test performance. Training uses no plate evaluation records.",
+  "seconds": 16.203000000008615,
+  "promoted": false
+}

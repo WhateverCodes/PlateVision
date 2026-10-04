@@ -1,0 +1,145 @@
+{
+  "audit": {
+    "character_source_counts": {
+      "0": 1030,
+      "1": 1030,
+      "2": 1030,
+      "3": 1030,
+      "4": 1030,
+      "5": 1030,
+      "6": 1030,
+      "7": 1030,
+      "8": 1030,
+      "9": 1030,
+      "A": 1010,
+      "B": 1030,
+      "C": 1020,
+      "D": 1010,
+      "E": 1010,
+      "F": 1020,
+      "G": 1020,
+      "H": 1020,
+      "I": 1010,
+      "J": 1030,
+      "K": 1010,
+      "L": 1010,
+      "M": 1020,
+      "N": 1020,
+      "P": 1010,
+      "Q": 1010,
+      "R": 1020,
+      "S": 1020,
+      "T": 1020,
+      "U": 1010,
+      "V": 1030,
+      "W": 1010,
+      "X": 1010,
+      "Y": 1010,
+      "Z": 810
+    },
+    "missing_classes": [
+      "O"
+    ],
+    "prepared_characters": 3500,
+    "character_rejects": {},
+    "plate_candidates": 387,
+    "plate_quarantine": 1310,
+    "plate_quarantine_reasons": {
+      "missing_or_ambiguous_image": 3,
+      "known_registration_or_related_video": 1304,
+      "label_needs_review": 3
+    },
+    "note": "Characters appear augmented; parent provenance unknown. No random character test split. Plate labels unverified; crops not used for training. Known text and related video screening is not complete near-duplicate certification."
+  },
+  "character_trial": {
+    "baseline": {
+      "exact": 14,
+      "accepted_correct": 9,
+      "accepted_wrong": 2,
+      "character_errors": 118,
+      "results_omitted_count": 45
+    },
+    "training_images": 4807,
+    "external_images": 3500,
+    "note": "Same existing 45 development crops; external glyph parent/source independence unknown. No independent-test claim. Existing weights preserved.",
+    "trials": [
+      {
+        "exact": 15,
+        "accepted_correct": 8,
+        "accepted_wrong": 1,
+        "character_errors": 134,
+        "results_omitted_count": 45,
+        "lr": 1e-05,
+        "stage": 1,
+        "steps": 60,
+        "loss": 0.9635504240791003,
+        "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr1e-05_stage1.pt"
+      },
+      {
+        "exact": 15,
+        "accepted_correct": 7,
+        "accepted_wrong": 0,
+        "character_errors": 133,
+        "results_omitted_count": 45,
+        "lr": 1e-05,
+        "stage": 2,
+        "steps": 60,
+        "loss": 0.7860844514643153,
+        "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr1e-05_stage2.pt"
+      },
+      {
+        "exact": 15,
+        "accepted_correct": 7,
+        "accepted_wrong": 0,
+        "character_errors": 134,
+        "results_omitted_count": 45,
+        "lr": 1e-05,
+        "stage": 3,
+        "steps": 60,
+        "loss": 0.6685206513851881,
+        "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr1e-05_stage3.pt"
+      },
+      {
+        "exact": 16,
+        "accepted_correct": 6,
+        "accepted_wrong": 0,
+        "character_errors": 140,
+        "results_omitted_count": 45,
+        "lr": 3e-05,
+        "stage": 1,
+        "steps": 60,
+        "loss": 0.9794950406998396,
+        "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr3e-05_stage1.pt"
+      },
+      {
+        "exact": 13,
+        "accepted_correct": 2,
+        "accepted_wrong": 0,
+        "character_errors": 145,
+        "results_omitted_count": 45,
+        "lr": 3e-05,
+        "stage": 2,
+        "steps": 60,
+        "loss": 0.6699008509516716,
+        "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr3e-05_stage2.pt"
+      },
+      {
+        "exact": 14,
+        "accepted_correct": 1,
+        "accepted_wrong": 0,
+        "character_errors": 148,
+        "results_omitted_count": 45,
+        "lr": 3e-05,
+        "stage": 3,
+        "steps": 60,
+        "loss": 0.5168469994018475,
+        "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr3e-05_stage3.pt"
+      }
+    ],
+    "seconds": 63.96899999999732,
+    "promoted": false
+  },
+  "decision": "Keep deployed CNN: external-glyph trial increased best exact count but reduced character score and correct accepted coverage. No model promoted. OCR unchanged.",
+  "archive_5": "SHA256-identical to previous archive (2).zip; not reimported.",
+  "archive_3113449": "Initially listed training.tsv and testing.tsv; archive disappeared before content inspection. Awaiting current location."
+}

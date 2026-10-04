@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-04",
+  "scope": "Development evaluations only. See COMBINED_DATASET_TRAINING.md for limitations.",
+  "dataset_ledger": [
+    {
+      "dataset": "archive (2) / (5)",
+      "role": "Existing screened vehicle-scene detector training; duplicate ZIP counted once; unlabeled cropped-plate text not fabricated."
+    },
+    {
+      "dataset": "archive (3) / (9)",
+      "role": "Existing Indian detector train split; duplicate images counted once."
+    },
+    {
+      "dataset": "archive (4)",
+      "role": "Existing project reader training split, with held-out registrations excluded; mixed source/human-reviewed text labels."
+    },
+    {
+      "dataset": "archive (6)",
+      "role": "361 usable-format crops grouped:251 train,54 validation,56 reserved test;26 questionable labels excluded. New train plates feed detector and reader preparation."
+    },
+    {
+      "dataset": "archive (7)",
+      "role": "All35,500 normalized character images included in training manifest; original class O absent, supplied by replay/EMNIST."
+    },
+    {
+      "dataset": "archive (8)",
+      "role": "1,440 official-training handwriting examples,40/class. Representative sample, not all handwritten images or duplicate file representations."
+    },
+    {
+      "dataset": "archive (10)",
+      "role": "3,913 official training plate-box images in mixed detector corpus, no foreign registration-text training.700 test images excluded."
+    },
+    {
+      "dataset": "3113449.zip",
+      "role": "Unavailable after initial archive listing; no contents trained."
+    }
+  ],
+  "data_counts": {
+    "new387": {
+      "train": 251,
+      "val": 54,
+      "test": 56
+    },
+    "new387_excluded_bad_format": 26,
+    "reader_training_plates": 1079,
+    "detector": {
+      "train": 4238,
+      "val": 61,
+      "test": 63
+    },
+    "detector_sources": {
+      "existing_indian": 74,
+      "archive6_indian": 251,
+      "archive10_pakistan": 3913
+    },
+    "character_rows": 38247,
+    "character_archive7": {
+      "0": 1030,
+      "1": 1030,
+      "2": 1030,
+      "3": 1030,
+      "4": 1030,
+      "5": 1030,
+      "6": 1030,
+      "7": 1030,
+      "8": 1030,
+      "9": 1030,
+      "A": 1010,
+      "B": 1030,
+      "C": 1020,
+      "D": 1010,
+      "E": 1010,
+      "F": 1020,
+      "G": 1020,
+      "H": 1020,
+      "I": 1010,
+      "J": 1030,
+      "K": 1010,
+      "L": 1010,
+      "M": 1020,
+      "N": 1020,
+      "P": 1010,
+      "Q": 1010,
+      "R": 1020,
+      "S": 1020,
+      "T": 1020,
+      "U": 1010,
+      "V": 1030,
+      "W": 1010,
+      "X": 1010,
+      "Y": 1010,
+      "Z": 810
+    },
+    "warnings": {},
+    "note": "Archive2=5,3=9 deduplicated. Archive4 already represented in existing reader training. Archive8 uses 1440 representative official training glyphs, not all 6GB duplicated representations. 3113449 absent. Split by known identity/hash/group; near-duplicate independence not fully certified."
+  },
+  "reader_preparation": {
+    "input_training_plates": 1079,
+    "training_lines": 981,
+    "weak_glyphs": 5751,
+    "layout_quarantined": 241,
+    "validation_lines": 26,
+    "note": "Automatic count/agreement alignment creates weak labels, not human glyph verification. Only declared training images used."
+  },
+  "detector": {
+    "baseline": {
+      "scope": "Indian grouped development validation, source boxes not fully reviewed. Not independent final-test accuracy; detector candidates limited to30.",
+      "images": 61,
+      "models": {
+        "own": {
+          "ap": 0.06347255797921772,
+          "precision": 0.14285714285714285,
+          "recall": 0.15151515151515152,
+          "true_positives": 10,
+          "false_positives": 60,
+          "ground_truth_plates": 66,
+          "mean_matched_iou": 0.7582378604195334
+        },
+        "deployed_yolo": {
+          "ap": 0.9312939337591665,
+          "precision": 0.8985507246376812,
+          "recall": 0.9393939393939394,
+          "true_positives": 62,
+          "false_positives": 7,
+          "ground_truth_plates": 66,
+          "mean_matched_iou": 0.8445320498375666
+        }
+      }
+    },
+    "indian_focused": {
+      "scope": "Indian grouped development validation, source boxes not fully reviewed. Not independent final-test accuracy; detector candidates limited to30.",
+      "images": 61,
+      "models": {
+        "own": {
+          "ap": 0.24070948158288444,
+          "precision": 0.46511627906976744,
+          "recall": 0.30303030303030304,
+          "true_positives": 20,
+          "false_positives": 23,
+          "ground_truth_plates": 66,
+          "mean_matched_iou": 0.6177551180124283
+        }
+      }
+    },
+    "full_epoch": {
+      "scope": "Indian grouped development validation, source boxes not fully reviewed. Not independent final-test accuracy; detector candidates limited to30.",
+      "images": 61,
+      "models": {
+        "own": {
+          "ap": 0.06203546710560299,
+          "precision": 0.2,
+          "recall": 0.13636363636363635,
+          "true_positives": 9,
+          "false_positives": 36,
+          "ground_truth_plates": 66,
+          "mean_matched_iou": 0.5620478640000025
+        }
+      }
+    },
+    "selected_custom_checkpoint": "models/combined_detector_indian_2026_10_03/best.pt",
+    "selected_metrics": {
+      "ap": 0.24070948158288444,
+      "precision": 0.46511627906976744,
+      "recall": 0.30303030303030304,
+      "true_positives": 20,
+      "false_positives": 23,
+      "ground_truth_plates": 66,
+      "mean_matched_iou": 0.6177551180124283
+    },
+    "mixed_epoch_complete": true,
+    "mixed_training_images": 4238,
+    "mixed_steps": 1060,
+    "main_app_detector": "Retained external YOLO"
+  },
+  "cnn": {
+    "baseline": {
+      "exact": 14,
+      "accepted_correct": 9,
+      "accepted_wrong": 2,
+      "character_errors": 118,
+      "results_omitted_count": 45
+    },
+    "history": [
+      {
+        "epoch": 1,
+        "loss": 0.7433403657336614,
+        "checkpoint": "models\\combined_cnn_2026_10_03\\epoch1.pt",
+        "exact": 14,
+        "accepted_correct": 5,
+        "accepted_wrong": 0,
+        "character_errors": 145,
+        "results_omitted_count": 45
+      },
+      {
+        "epoch": 2,
+        "loss": 0.504482688839564,
+        "checkpoint": "models\\combined_cnn_2026_10_03\\epoch2.pt",
+        "exact": 16,
+        "accepted_correct": 5,
+        "accepted_wrong": 0,
+        "character_errors": 140,
+        "results_omitted_count": 45
+      }
+    ],
+    "training_images": 43998,
+    "new_examples": 42691,
+    "unique_new_examples_seen": 42691,
+    "seconds": 240.35900000002584,
+    "promoted": false,
+    "note": "Development crop scores, not independent-test accuracy. Weak source labels not individually verified."
+  },
+  "ocr": {
+    "scope": "45 development plate crops, repeatedly used for selection; not independent-test or full-photo accuracy.",
+    "models": {
+      "baseline": {
+        "images": 45,
+        "characters": 440,
+        "exact": 34,
+        "accepted_correct": 29,
+        "accepted_wrong": 3,
+        "character_errors": 21,
+        "results_omitted_count": 45
+      },
+      "candidate": {
+        "images": 45,
+        "characters": 440,
+        "exact": 34,
+        "accepted_correct": 33,
+        "accepted_wrong": 4,
+        "character_errors": 18,
+        "results_omitted_count": 45
+      }
+    },
+    "threshold_sweep": [
+      {
+        "threshold": 0.9,
+        "accepted_correct": 33,
+        "accepted_wrong": 4
+      },
+      {
+        "threshold": 0.91,
+        "accepted_correct": 31,
+        "accepted_wrong": 3
+      },
+      {
+        "threshold": 0.92,
+        "accepted_correct": 30,
+        "accepted_wrong": 3
+      },
+      {
+        "threshold": 0.93,
+        "accepted_correct": 29,
+        "accepted_wrong": 3
+      },
+      {
+        "threshold": 0.94,
+        "accepted_correct": 27,
+        "accepted_wrong": 3
+      },
+      {
+        "threshold": 0.95,
+        "accepted_correct": 27,
+        "accepted_wrong": 3
+      }
+    ],
+    "selected_threshold": 0.91,
+    "selection_note": "Development-selected: preserves 34 exact matches, reduces edits21 to18, increases accepted correct29 to31 at unchanged3 accepted wrong. Threshold tuning on these same45 crops is optimistic, not independent-test evidence."
+  },
+  "additional_validation": {
+    "scope": "54 newly grouped validation plate crops. Source labels not fully manually verified; near-duplicate capture provenance incomplete. Reserved test remains unused. No further threshold search on these results.",
+    "models": {
+      "cnn_previous": {
+        "images": 54,
+        "reference_characters": 517,
+        "exact": 17,
+        "character_errors": 145,
+        "accepted_correct": 11,
+        "accepted_wrong": 5,
+        "results_omitted_count": 54
+      },
+      "cnn_candidate": {
+        "images": 54,
+        "reference_characters": 517,
+        "exact": 18,
+        "character_errors": 154,
+        "accepted_correct": 9,
+        "accepted_wrong": 1,
+        "results_omitted_count": 54
+      },
+      "ocr_previous": {
+        "images": 54,
+        "reference_characters": 517,
+        "exact": 42,
+        "character_errors": 31,
+        "accepted_correct": 35,
+        "accepted_wrong": 1,
+        "results_omitted_count": 54
+      },
+      "ocr_candidate": {
+        "images": 54,
+        "reference_characters": 517,
+        "exact": 43,
+        "character_errors": 29,
+        "accepted_correct": 34,
+        "accepted_wrong": 2,
+        "results_omitted_count": 54
+      }
+    }
+  }
+}

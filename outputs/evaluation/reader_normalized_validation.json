@@ -1,0 +1,10 @@
+{
+  "split": "val",
+  "checkpoint": "models\\plate_reader_normalized\\best.pt",
+  "images": 15,
+  "exact_matches": 0,
+  "exact_accuracy": 0.0,
+  "character_error_rate": 0.7816901408450704,
+  "results_omitted_count": 15,
+  "note": "Greedy CTC decoding; no confidence filtering or format corrections. Small pilot split; not a broad real-world accuracy estimate."
+}

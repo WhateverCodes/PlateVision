@@ -1,0 +1,8 @@
+{
+  "ground_truth_plates": 52,
+  "exact_matches": 37,
+  "exact_match_rate": 0.7115384615384616,
+  "false_positive_detections": 0,
+  "failures_omitted_count": 15,
+  "note": "All ground-truth plates counted, including detection/segmentation failures."
+}

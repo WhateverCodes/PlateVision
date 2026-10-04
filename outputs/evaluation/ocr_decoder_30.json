@@ -1,0 +1,23 @@
+{
+  "dataset": "data/accuracy_check_2026_09_21/val.json",
+  "images": 30,
+  "models": {
+    "My model": {
+      "exact": 7,
+      "accepted_correct": 5,
+      "accepted_wrong": 2,
+      "character_error_rate": 0.29194630872483224,
+      "mean_seconds": 0.044182653336126046,
+      "results_omitted_count": 30
+    },
+    "Pretrained model": {
+      "exact": 17,
+      "accepted_correct": 12,
+      "accepted_wrong": 3,
+      "character_error_rate": 0.07718120805369127,
+      "mean_seconds": 0.2746557133330498,
+      "results_omitted_count": 30
+    }
+  },
+  "note": "Same input crops; own CNN minimum-glyph gate 0.75, whole-line OCR mean-token gate 0.95. Models run sequentially with two CPU threads. Development evaluation only; pretrained training-data overlap is unknown. Not full-photo or final-test accuracy."
+}

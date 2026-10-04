@@ -1,0 +1,57 @@
+{
+  "baseline": {
+    "exact": 13,
+    "accepted_correct": 8,
+    "accepted_wrong": 1,
+    "character_errors": 131
+  },
+  "images": 45,
+  "target_exact": 18,
+  "experiments": [
+    {
+      "experiment": "cnn_segmentation_expanded",
+      "exact": 14,
+      "accepted_correct": 10,
+      "accepted_wrong": 2,
+      "character_errors": 125
+    },
+    {
+      "experiment": "cnn_segmentation_decoding",
+      "exact": 14,
+      "accepted_correct": 10,
+      "accepted_wrong": 2,
+      "character_errors": 119
+    },
+    {
+      "experiment": "cnn_deskew",
+      "exact": 14,
+      "accepted_correct": 10,
+      "accepted_wrong": 4,
+      "character_errors": 116
+    },
+    {
+      "experiment": "cnn_plate_deskew",
+      "exact": 14,
+      "accepted_correct": 10,
+      "accepted_wrong": 2,
+      "character_errors": 121
+    },
+    {
+      "experiment": "cnn_edge_padding",
+      "exact": 12,
+      "accepted_correct": 9,
+      "accepted_wrong": 2,
+      "character_errors": 132
+    },
+    {
+      "experiment": "cnn_stroke_closing",
+      "exact": 14,
+      "accepted_correct": 10,
+      "accepted_wrong": 4,
+      "character_errors": 123
+    }
+  ],
+  "promoted": false,
+  "reason": "Best exact result 14/45 below target, with more wrongly accepted readings than baseline. Restored production segmenter and classifier.",
+  "scope": "Repeated development tuning only, not independent generalization accuracy. Ground-truth labels used for evaluation only."
+}

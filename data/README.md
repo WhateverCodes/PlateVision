@@ -1,0 +1,1 @@
+Datasets and annotations are not bundled. See the dataset links and provenance table in the main README. Import downloaded data with the appropriate training/import scripts before running training or review tools.

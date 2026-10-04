@@ -1,0 +1,11 @@
+{
+  "model": "models/character_adaptation_v2/last.pt",
+  "images": 30,
+  "baseline_exact_matches": 3,
+  "exact_matches": 4,
+  "accepted_correct": 1,
+  "accepted_wrong": 1,
+  "character_error_rate": 0.3624161073825503,
+  "results_omitted_count": 30,
+  "note": "Development evaluation on 30 newly human-reviewed, previously withheld plate crops. Not full-photo or independent final-test accuracy. Confidence is not a guarantee of correct recognition."
+}

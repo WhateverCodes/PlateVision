@@ -1,0 +1,146 @@
+[
+  {
+    "id": "188f6bf244d08a889d75",
+    "plate": 1,
+    "text": "KL35J4199",
+    "segments": 10,
+    "expected_characters": 9,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "188f6bf244d08a889d75",
+    "plate": 2,
+    "text": "KL35J4199",
+    "segments": 9,
+    "expected_characters": 9,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "1dcbf451fa530b598cec",
+    "plate": 1,
+    "text": "KA41EN1051",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "1dcbf451fa530b598cec",
+    "plate": 2,
+    "text": "KA41EM7969",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "26f25107cda9e1f7a070",
+    "plate": 1,
+    "text": "MH01AX7656",
+    "segments": 8,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "3d143c0008a7cc136e07",
+    "plate": 1,
+    "text": "KL65G4218",
+    "segments": 9,
+    "expected_characters": 9,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "3d143c0008a7cc136e07",
+    "plate": 2,
+    "text": "KL65G4218",
+    "segments": 7,
+    "expected_characters": 9,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "4dce4d5eba8852d2d21e",
+    "plate": 1,
+    "text": "KL01BM5673",
+    "segments": 11,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "4dce4d5eba8852d2d21e",
+    "plate": 2,
+    "text": "KL01BM5673",
+    "segments": 11,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "66e4d9f07f89032f63e0",
+    "plate": 1,
+    "text": "KA04JQ5657",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "66e4d9f07f89032f63e0",
+    "plate": 2,
+    "text": "KA04JQ5657",
+    "segments": 9,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "8e9550f8e7b131b420aa",
+    "plate": 1,
+    "text": "DL3CAS4229",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "94f127152217b534a340",
+    "plate": 1,
+    "text": "TN33BR0909",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "c19aa2efc5c4c26ea5c7",
+    "plate": 1,
+    "text": "KA41EM7969",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "c19aa2efc5c4c26ea5c7",
+    "plate": 2,
+    "text": "KA41EN1051",
+    "segments": 10,
+    "expected_characters": 10,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "e40952fdb17a926b3e30",
+    "plate": 1,
+    "text": "TN43J0158",
+    "segments": 9,
+    "expected_characters": 9,
+    "image_kind": "Plate close-up"
+  },
+  {
+    "id": "f1d86feb6c02c5d58857",
+    "plate": 1,
+    "text": "UA07J1771",
+    "segments": 0,
+    "expected_characters": 9,
+    "image_kind": "Collage / article graphic"
+  },
+  {
+    "id": "f1d86feb6c02c5d58857",
+    "plate": 2,
+    "text": "UA07J1771",
+    "segments": 9,
+    "expected_characters": 9,
+    "image_kind": "Collage / article graphic"
+  }
+]

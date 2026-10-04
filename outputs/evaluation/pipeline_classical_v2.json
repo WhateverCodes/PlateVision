@@ -1,0 +1,10 @@
+{
+  "mode": "classical",
+  "weights": "models/plate_detector/best.pt",
+  "images": 7,
+  "correct_accepted": 1,
+  "incorrect_accepted": 0,
+  "unverified_accepted": 1,
+  "results_omitted_count": 7,
+  "note": "Development-only test, exact text plus IoU >=0.5 matching. Source annotations may be incomplete. Not final independent test accuracy."
+}

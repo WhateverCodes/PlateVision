@@ -1,0 +1,10 @@
+{
+  "ap": 0.17995483758902203,
+  "precision": 0.039603960396039604,
+  "recall": 0.3333333333333333,
+  "true_positives": 4,
+  "false_positives": 97,
+  "ground_truth_plates": 12,
+  "mean_matched_iou": 0.7436283081769943,
+  "note": "Proposal development check; heuristic scores are not probabilities."
+}

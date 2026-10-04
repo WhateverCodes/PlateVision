@@ -1,0 +1,67 @@
+{
+  "scope": "45 repeatedly used development crops; not independent test performance. Full segmentation selection rerun at each threshold. Format decoding enabled; weights unchanged.",
+  "selection_rule": "Maximize accepted exact-reading F1 (2*correct_accepted/(45+correct_accepted+wrong_accepted)); ties: fewer wrong accepts, more raw exact plates, closest to previous 0.75.",
+  "selected_threshold": 0.7,
+  "comparisons": [
+    {
+      "threshold": 0.65,
+      "exact": 14,
+      "correct_accepted": 9,
+      "wrong_accepted": 2,
+      "rejected": 34,
+      "accepted_precision": 0.8181818181818182,
+      "recognition_f1": 0.32142857142857145,
+      "character_errors": 118,
+      "character_score": 0.7318181818181818,
+      "results_omitted_count": 45
+    },
+    {
+      "threshold": 0.7,
+      "exact": 14,
+      "correct_accepted": 9,
+      "wrong_accepted": 2,
+      "rejected": 34,
+      "accepted_precision": 0.8181818181818182,
+      "recognition_f1": 0.32142857142857145,
+      "character_errors": 118,
+      "character_score": 0.7318181818181818,
+      "results_omitted_count": 45
+    },
+    {
+      "threshold": 0.75,
+      "exact": 14,
+      "correct_accepted": 8,
+      "wrong_accepted": 1,
+      "rejected": 36,
+      "accepted_precision": 0.8888888888888888,
+      "recognition_f1": 0.2962962962962963,
+      "character_errors": 118,
+      "character_score": 0.7318181818181818,
+      "results_omitted_count": 45
+    },
+    {
+      "threshold": 0.8,
+      "exact": 14,
+      "correct_accepted": 7,
+      "wrong_accepted": 1,
+      "rejected": 37,
+      "accepted_precision": 0.875,
+      "recognition_f1": 0.2641509433962264,
+      "character_errors": 118,
+      "character_score": 0.7318181818181818,
+      "results_omitted_count": 45
+    },
+    {
+      "threshold": 0.85,
+      "exact": 14,
+      "correct_accepted": 6,
+      "wrong_accepted": 1,
+      "rejected": 38,
+      "accepted_precision": 0.8571428571428571,
+      "recognition_f1": 0.23076923076923078,
+      "character_errors": 118,
+      "character_score": 0.7318181818181818,
+      "results_omitted_count": 45
+    }
+  ]
+}

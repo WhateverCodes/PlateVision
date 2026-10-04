@@ -1,0 +1,9 @@
+{
+  "images": 47,
+  "annotated_plates": 52,
+  "plates_with_proposal_iou50": 17,
+  "proposal_recall_iou50": 0.3269230769230769,
+  "mean_candidates": 14.361702127659575,
+  "note": "Development sample only; measures candidate coverage, not recognition or detection precision. External test photos were not used.",
+  "results_omitted_count": 47
+}

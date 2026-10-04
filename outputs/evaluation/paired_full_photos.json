@@ -1,0 +1,95 @@
+{
+  "photos": 7,
+  "source_boxes": 12,
+  "models": {
+    "My model": {
+      "matched_boxes": 4,
+      "correct": 1,
+      "wrong": 0,
+      "unverified": 1,
+      "seconds": 0.8043120999936946,
+      "images": [
+        {
+          "file": "dc_license_plates_7K9NEIDD2KK46L6F.jpg",
+          "candidates": 15,
+          "accepted_omitted_count": 1
+        },
+        {
+          "file": "dc_tempo_van__image_000490_CF9bwJsyoX.jpg",
+          "candidates": 11,
+          "accepted": []
+        },
+        {
+          "file": "Datacluster_number_plates (11).jpg",
+          "candidates": 15,
+          "accepted": []
+        },
+        {
+          "file": "dc_auto_image_000021_bMXgvtud5K.jpg",
+          "candidates": 15,
+          "accepted": []
+        },
+        {
+          "file": "Datacluster_number_plates (22).jpg",
+          "candidates": 15,
+          "accepted_omitted_count": 1
+        },
+        {
+          "file": "dc_license_plates_2DZ4YT4ZJ9XJZSO0.jpg",
+          "candidates": 15,
+          "accepted": []
+        },
+        {
+          "file": "Datacluster_number_plates (36).jpg",
+          "candidates": 15,
+          "accepted": []
+        }
+      ]
+    },
+    "Pretrained model": {
+      "matched_boxes": 7,
+      "correct": 0,
+      "wrong": 1,
+      "unverified": 1,
+      "seconds": 0.32885549997445196,
+      "images": [
+        {
+          "file": "dc_license_plates_7K9NEIDD2KK46L6F.jpg",
+          "candidates": 1,
+          "accepted": []
+        },
+        {
+          "file": "dc_tempo_van__image_000490_CF9bwJsyoX.jpg",
+          "candidates": 1,
+          "accepted": []
+        },
+        {
+          "file": "Datacluster_number_plates (11).jpg",
+          "candidates": 1,
+          "accepted": []
+        },
+        {
+          "file": "dc_auto_image_000021_bMXgvtud5K.jpg",
+          "candidates": 2,
+          "accepted_omitted_count": 1
+        },
+        {
+          "file": "Datacluster_number_plates (22).jpg",
+          "candidates": 1,
+          "accepted_omitted_count": 1
+        },
+        {
+          "file": "dc_license_plates_2DZ4YT4ZJ9XJZSO0.jpg",
+          "candidates": 1,
+          "accepted": []
+        },
+        {
+          "file": "Datacluster_number_plates (36).jpg",
+          "candidates": 1,
+          "accepted": []
+        }
+      ]
+    }
+  },
+  "note": "Development photos with partly incomplete annotations. One-to-one IoU >= 0.5 matching. Not final-test accuracy; potential pretrained training overlap unknown."
+}

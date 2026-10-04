@@ -1,0 +1,6 @@
+{
+  "models/character_conservative_v1/last.pt": "05e9b9be7a5e7e9e1a136b8fe9bcbeba85284d97a75024f2c1b4623bd2956410",
+  "models/paddle_plate_adapted_v1/english.onnx": "fa1746d4404fe7cd80a5d57848432fddd831e4434a757fe0afb1f2f09a97ea7e",
+  "models/plate_detector/best.pt": "ff1ff7d85a36fffc4ea41a298f036c499fc96e4fddf7a05e2056c39707b6c8b0",
+  "models/pretrained/yolo-v9-t-384-license-plates-end2end.onnx": "888397b96d761c89db40bc9c305838e8652660f5e282c2cadebbe8d2951a77a8"
+}

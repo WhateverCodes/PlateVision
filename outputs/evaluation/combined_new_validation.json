@@ -1,0 +1,41 @@
+{
+  "scope": "54 newly grouped validation plate crops. Source labels not fully manually verified; near-duplicate capture provenance incomplete. Reserved test remains unused. No further threshold search on these results.",
+  "models": {
+    "cnn_previous": {
+      "images": 54,
+      "reference_characters": 517,
+      "exact": 17,
+      "character_errors": 145,
+      "accepted_correct": 11,
+      "accepted_wrong": 5,
+      "results_omitted_count": 54
+    },
+    "cnn_candidate": {
+      "images": 54,
+      "reference_characters": 517,
+      "exact": 18,
+      "character_errors": 154,
+      "accepted_correct": 9,
+      "accepted_wrong": 1,
+      "results_omitted_count": 54
+    },
+    "ocr_previous": {
+      "images": 54,
+      "reference_characters": 517,
+      "exact": 42,
+      "character_errors": 31,
+      "accepted_correct": 35,
+      "accepted_wrong": 1,
+      "results_omitted_count": 54
+    },
+    "ocr_candidate": {
+      "images": 54,
+      "reference_characters": 517,
+      "exact": 43,
+      "character_errors": 29,
+      "accepted_correct": 34,
+      "accepted_wrong": 2,
+      "results_omitted_count": 54
+    }
+  }
+}

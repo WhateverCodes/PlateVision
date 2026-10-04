@@ -1,0 +1,56 @@
+[
+  {
+    "source": "dc_license_plates_7K9NEIDD2KK46L6F.jpg",
+    "expected": "KL07BX7197",
+    "predicted": "KL07BX7197",
+    "minscore": 0.9956562519073486
+  },
+  {
+    "source": "dc_tempo_van__image_000490_CF9bwJsyoX.jpg",
+    "expected": "KA09C2763",
+    "predicted": "17QA09C2763",
+    "minscore": 0.448781281709671
+  },
+  {
+    "source": "dc_auto_image_000021_bMXgvtud5K.jpg",
+    "expected": "KL34A465",
+    "predicted": "KL465",
+    "minscore": 0.9736571907997131
+  },
+  {
+    "source": "dc_auto_image_000021_bMXgvtud5K.jpg",
+    "expected": "KL34A465",
+    "predicted": "I",
+    "minscore": 0.7601339817047119
+  },
+  {
+    "source": "dc_auto_image_000021_bMXgvtud5K.jpg",
+    "expected": "KL34F",
+    "predicted": "O",
+    "minscore": 0.9344940185546875
+  },
+  {
+    "source": "dc_auto_image_000021_bMXgvtud5K.jpg",
+    "expected": "KL35F4337",
+    "predicted": "I1IQTIIIQMF1J",
+    "minscore": 0.23279142379760742
+  },
+  {
+    "source": "dc_auto_image_000021_bMXgvtud5K.jpg",
+    "expected": "KL35H5834",
+    "predicted": "KL3SMS834",
+    "minscore": 0.6603397130966187
+  },
+  {
+    "source": "dc_auto_image_000021_bMXgvtud5K.jpg",
+    "expected": "KL03S6894",
+    "predicted": "A",
+    "minscore": 0.9669478535652161
+  },
+  {
+    "source": "dc_license_plates_2DZ4YT4ZJ9XJZSO0.jpg",
+    "expected": "RJ11GB1829",
+    "predicted": "AJ414A1429",
+    "minscore": 0.40321165323257446
+  }
+]

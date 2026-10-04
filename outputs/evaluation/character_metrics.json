@@ -1,0 +1,47 @@
+{
+  "scope": "45 repeatedly used development plate crops, all predictions including rejected readings; not independent test accuracy or full-image detection accuracy. Character score is 1-CER, not isolated-glyph classification accuracy.",
+  "metrics": {
+    "own_cnn": {
+      "plates": 45,
+      "reference_characters": 440,
+      "edit_errors": 118,
+      "character_error_rate": 0.2681818181818182,
+      "character_score_1_minus_CER": 0.7318181818181818,
+      "exact_plates": 14
+    },
+    "paddleocr": {
+      "plates": 45,
+      "reference_characters": 440,
+      "edit_errors": 18,
+      "character_error_rate": 0.04090909090909091,
+      "character_score_1_minus_CER": 0.9590909090909091,
+      "exact_plates": 34
+    }
+  },
+  "synthetic_glyph_validation": {
+    "accuracy": 1.0,
+    "loss": 0.006769242230802774,
+    "images": 216,
+    "scope": "Synthetic validation glyphs, not real character accuracy"
+  },
+  "decision": "Retain previous CNN after mixed combined-data results; promote combined-data PaddleOCR at .91. See combined_training_summary.json.",
+  "previous_metrics": {
+    "own_cnn": {
+      "plates": 45,
+      "reference_characters": 440,
+      "edit_errors": 131,
+      "character_error_rate": 0.29772727272727273,
+      "character_score_1_minus_CER": 0.7022727272727273,
+      "exact_plates": 13
+    },
+    "paddleocr": {
+      "plates": 45,
+      "reference_characters": 440,
+      "edit_errors": 25,
+      "character_error_rate": 0.056818181818181816,
+      "character_score_1_minus_CER": 0.9431818181818182,
+      "exact_plates": 31
+    }
+  },
+  "decoding_update": "Historical format-aware update is followed by the 2026-10-04 CTC projection training update."
+}

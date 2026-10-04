@@ -1,0 +1,23 @@
+{
+  "character_verified_100/last.pt": {
+    "exact": 14,
+    "accepted_correct": 8,
+    "accepted_wrong": 3,
+    "character_errors": 122,
+    "results_omitted_count": 45
+  },
+  "character_verified_300_head_trial/stage_3.pt": {
+    "exact": 11,
+    "accepted_correct": 10,
+    "accepted_wrong": 3,
+    "character_errors": 132,
+    "results_omitted_count": 45
+  },
+  "character_adaptation_v1/last.pt": {
+    "exact": 10,
+    "accepted_correct": 7,
+    "accepted_wrong": 4,
+    "character_errors": 131,
+    "results_omitted_count": 45
+  }
+}

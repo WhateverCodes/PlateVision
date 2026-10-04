@@ -1,0 +1,15 @@
+{
+  "scope": "Indian grouped development validation, source boxes not fully reviewed. Not independent final-test accuracy; detector candidates limited to30.",
+  "images": 61,
+  "models": {
+    "own": {
+      "ap": 0.06203546710560299,
+      "precision": 0.2,
+      "recall": 0.13636363636363635,
+      "true_positives": 9,
+      "false_positives": 36,
+      "ground_truth_plates": 66,
+      "mean_matched_iou": 0.5620478640000025
+    }
+  }
+}

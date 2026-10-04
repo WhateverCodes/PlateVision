@@ -1,0 +1,11 @@
+{
+  "model": "models/character_adaptation_v1/last.pt",
+  "images": 15,
+  "baseline_exact_matches": 5,
+  "exact_matches": 6,
+  "accepted_correct": 2,
+  "accepted_wrong": 0,
+  "character_error_rate": 0.36619718309859156,
+  "results_omitted_count": 15,
+  "note": "Small difficult development validation set used during method selection. Not independent final-test accuracy."
+}

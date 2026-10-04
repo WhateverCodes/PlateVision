@@ -1,0 +1,43 @@
+{
+  "scope": "45 existing development plate crops, 440 reference characters; no independent test or full-photo detection evaluation. Identical weights and thresholds before/after.",
+  "models": {
+    "cnn": {
+      "before": {
+        "exact": 13,
+        "accepted_correct": 8,
+        "accepted_wrong": 1,
+        "character_errors": 131,
+        "character_score": 0.7022727272727273,
+        "results_omitted_count": 45
+      },
+      "after": {
+        "exact": 14,
+        "accepted_correct": 8,
+        "accepted_wrong": 1,
+        "character_errors": 118,
+        "character_score": 0.7318181818181818,
+        "results_omitted_count": 45
+      },
+      "changes_omitted_count": 7
+    },
+    "paddleocr": {
+      "before": {
+        "exact": 31,
+        "accepted_correct": 29,
+        "accepted_wrong": 7,
+        "character_errors": 25,
+        "character_score": 0.9431818181818182,
+        "results_omitted_count": 45
+      },
+      "after": {
+        "exact": 34,
+        "accepted_correct": 29,
+        "accepted_wrong": 3,
+        "character_errors": 21,
+        "character_score": 0.9522727272727273,
+        "results_omitted_count": 45
+      },
+      "changes_omitted_count": 4
+    }
+  }
+}

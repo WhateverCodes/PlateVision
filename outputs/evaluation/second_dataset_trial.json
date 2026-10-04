@@ -1,0 +1,70 @@
+{
+  "archives": {
+    "archive (9).zip": {
+      "images": 47,
+      "annotation_classes": {
+        "number_plate": 52
+      },
+      "annotation_splits": {
+        "Annotations": 27,
+        "number_plate_annos_ocr": 20
+      },
+      "bad_xml": 0,
+      "images_matching_archive3_crc_size": 47
+    },
+    "archive (10).zip": {
+      "images": 4613,
+      "annotation_classes": {
+        "LP": 5742
+      },
+      "annotation_splits": {
+        "test": 700,
+        "train": 3913
+      },
+      "bad_xml": 0,
+      "images_matching_archive3_crc_size": 0,
+      "visual_inspection": "24 large crops from distinct training IDs show Sindh/Karachi registrations. Poor domain match for Indian plate reader; box-only labels."
+    }
+  },
+  "emnist_trial": {
+    "baseline": {
+      "exact": 14,
+      "accepted_correct": 9,
+      "accepted_wrong": 2,
+      "character_errors": 118,
+      "results_omitted_count": 45
+    },
+    "training_images": 2747,
+    "external_images": 1440,
+    "note": "Same existing 45 development crops; EMNIST official training partition sampled; 45 real-plate development crops used for selection. No independent-test claim. Existing weights preserved.",
+    "trials": [
+      {
+        "exact": 15,
+        "accepted_correct": 7,
+        "accepted_wrong": 0,
+        "character_errors": 129,
+        "results_omitted_count": 45,
+        "lr": 1e-05,
+        "stage": 1,
+        "steps": 60,
+        "loss": 2.209634104867776,
+        "checkpoint": "models\\emnist_trial_2026_10_03\\lr1e-05_stage1.pt"
+      },
+      {
+        "exact": 15,
+        "accepted_correct": 6,
+        "accepted_wrong": 0,
+        "character_errors": 137,
+        "results_omitted_count": 45,
+        "lr": 1e-05,
+        "stage": 2,
+        "steps": 60,
+        "loss": 1.7600126688679059,
+        "checkpoint": "models\\emnist_trial_2026_10_03\\lr1e-05_stage2.pt"
+      }
+    ],
+    "seconds": 11.562999999994645,
+    "promoted": false
+  },
+  "decision": "No promotion. Current CNN and OCR weights unchanged. EMNIST increases exact plates 14 to15 but reduces character score and correct accepted coverage. Archive9 duplicates earlier images; archive10 lacks transcriptions and inspected examples are Pakistani plates."
+}

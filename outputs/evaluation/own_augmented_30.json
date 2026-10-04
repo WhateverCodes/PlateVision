@@ -1,0 +1,11 @@
+{
+  "model": "models/character_reviewed_augmented/last.pt",
+  "images": 30,
+  "baseline_exact_matches": 3,
+  "exact_matches": 4,
+  "accepted_correct": 2,
+  "accepted_wrong": 2,
+  "character_error_rate": 0.33557046979865773,
+  "results_omitted_count": 30,
+  "note": "Small difficult development validation set used during method selection. Not independent final-test accuracy."
+}
