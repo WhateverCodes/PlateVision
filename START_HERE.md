@@ -1,0 +1,1 @@
+Dataset-free final version. Extract fully, close older PLATEVISION command windows, then double-click OPEN_PLATEVISION.cmd on the configured laptop. Upload your own photograph. Models are included; datasets and built-in example photographs are not. Read README.md for setup, source links and Git LFS publishing.

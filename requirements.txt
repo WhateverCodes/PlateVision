@@ -1,0 +1,15 @@
+# Install CPU torch/torchvision first using README commands.
+torch==2.7.1
+torchvision==0.22.1
+numpy==2.2.6
+opencv-python-headless==4.11.0.86
+Pillow==11.3.0
+streamlit==1.49.1
+pandas==2.3.2
+scikit-learn==1.7.2
+matplotlib==3.10.6
+pytest==8.4.2
+
+# Local CPU inference for the optional pretrained comparison
+onnxruntime==1.23.2
+PyYAML==6.0.2
