@@ -1,0 +1,57 @@
+{
+  "scope": "45 development plate crops, repeatedly used for selection; not independent-test or full-photo accuracy.",
+  "models": {
+    "baseline": {
+      "images": 45,
+      "characters": 440,
+      "exact": 34,
+      "accepted_correct": 29,
+      "accepted_wrong": 3,
+      "character_errors": 21,
+      "results_omitted_count": 45
+    },
+    "candidate": {
+      "images": 45,
+      "characters": 440,
+      "exact": 34,
+      "accepted_correct": 33,
+      "accepted_wrong": 4,
+      "character_errors": 18,
+      "results_omitted_count": 45
+    }
+  },
+  "threshold_sweep": [
+    {
+      "threshold": 0.9,
+      "accepted_correct": 33,
+      "accepted_wrong": 4
+    },
+    {
+      "threshold": 0.91,
+      "accepted_correct": 31,
+      "accepted_wrong": 3
+    },
+    {
+      "threshold": 0.92,
+      "accepted_correct": 30,
+      "accepted_wrong": 3
+    },
+    {
+      "threshold": 0.93,
+      "accepted_correct": 29,
+      "accepted_wrong": 3
+    },
+    {
+      "threshold": 0.94,
+      "accepted_correct": 27,
+      "accepted_wrong": 3
+    },
+    {
+      "threshold": 0.95,
+      "accepted_correct": 27,
+      "accepted_wrong": 3
+    }
+  ],
+  "selected_threshold": 0.91,
+  "selection_note": "Development-selected: preserves 34 exact matches, reduces edits21 to18, increases accepted correct29 to31 at unchanged3 accepted wrong. Threshold tuning on these same45 crops is optimistic, not independent-test evidence."
+}

@@ -1,0 +1,43 @@
+{
+  "method": "Pretrained PP-OCRv5 English recognizer with locally adapted final CTC linear layer only; 50% original / 50% epoch-1 adapted projection. All feature-extractor weights unchanged.",
+  "training_images": 76,
+  "development_line_images": 26,
+  "full_pipeline_images": 45,
+  "full_plate_exact": 31,
+  "accepted_correct": 27,
+  "accepted_wrong": 2,
+  "threshold": 0.95,
+  "baseline": {
+    "exact": 31,
+    "accepted_correct": 25,
+    "accepted_wrong": 2
+  },
+  "source_manifest": [
+    {
+      "file": "english.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/rec/en_PP-OCRv5_rec_mobile.onnx",
+      "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8",
+      "bytes": 7872351
+    },
+    {
+      "file": "text_detector.onnx",
+      "source": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/det/ch_PP-OCRv5_det_mobile.onnx",
+      "sha256": "4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae",
+      "bytes": 4819576
+    },
+    {
+      "file": "RAPIDOCR_LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/RapidAI/RapidOCR/main/LICENSE",
+      "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333",
+      "bytes": 11422
+    },
+    {
+      "file": "PADDLEOCR_LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/LICENSE",
+      "sha256": "3840c5c0c61c294264d2dd77b8777be6ddd90121ef4e0e64abcd22edea581d6e",
+      "bytes": 11376
+    }
+  ],
+  "english_sha256": "fa1746d4404fe7cd80a5d57848432fddd831e4434a757fe0afb1f2f09a97ea7e",
+  "note": "Development-selected, no independent accuracy claim. Original pretrained model retained for rollback."
+}

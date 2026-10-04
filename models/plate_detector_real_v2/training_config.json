@@ -1,0 +1,18 @@
+{
+  "data": "data\\detector_real_v2",
+  "out": "models\\plate_detector_real_v2",
+  "epochs": 10,
+  "batch_size": 2,
+  "image_size": 320,
+  "lr": 0.0001,
+  "threads": 2,
+  "max_minutes": 2.0,
+  "cooldown": 0.05,
+  "seed": 42,
+  "device": "cpu",
+  "resume": "models\\plate_detector_real_v2\\last.pt",
+  "initialize": null,
+  "no_augmentation": false,
+  "limit_train": 0,
+  "limit_val": 0
+}

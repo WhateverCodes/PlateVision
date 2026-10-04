@@ -1,0 +1,43 @@
+{
+  "baseline": {
+    "exact": 13,
+    "accepted_correct": 8,
+    "accepted_wrong": 2,
+    "character_errors": 134,
+    "results_omitted_count": 45
+  },
+  "candidates": [
+    {
+      "exact": 12,
+      "accepted_correct": 8,
+      "accepted_wrong": 1,
+      "character_errors": 141,
+      "results_omitted_count": 45,
+      "stage": 1,
+      "steps": 60,
+      "mean_loss": 0.3280322152500351
+    },
+    {
+      "exact": 13,
+      "accepted_correct": 8,
+      "accepted_wrong": 2,
+      "character_errors": 144,
+      "results_omitted_count": 45,
+      "stage": 2,
+      "steps": 60,
+      "mean_loss": 0.3186055768902103
+    },
+    {
+      "exact": 12,
+      "accepted_correct": 8,
+      "accepted_wrong": 2,
+      "character_errors": 146,
+      "results_omitted_count": 45,
+      "stage": 3,
+      "steps": 60,
+      "mean_loss": 0.29516438907012343
+    }
+  ],
+  "note": "45 development crops repeatedly used for selection; not an independent final evaluation. No evaluation examples used in gradient updates.",
+  "elapsed_seconds": 33.75
+}

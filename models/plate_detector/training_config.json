@@ -1,0 +1,17 @@
+{
+  "data": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\data\\synthetic\\plates",
+  "out": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\models\\plate_detector",
+  "epochs": 30,
+  "batch_size": 2,
+  "image_size": 320,
+  "lr": 0.001,
+  "threads": 2,
+  "max_minutes": 2.0,
+  "cooldown": 0.1,
+  "seed": 42,
+  "device": "cpu",
+  "resume": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\models\\plate_detector\\last.pt",
+  "no_augmentation": false,
+  "limit_train": 0,
+  "limit_val": 0
+}

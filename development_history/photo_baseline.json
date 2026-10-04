@@ -1,0 +1,242 @@
+{
+  "dataset1.jpg": [
+    {
+      "box": [
+        66,
+        235,
+        144,
+        260
+      ],
+      "raw_text": "MH15FT9431",
+      "confidence": 0.9965442419052124,
+      "recognized": true
+    }
+  ],
+  "dataset10.jpg": [
+    {
+      "box": [
+        68,
+        104,
+        116,
+        132
+      ],
+      "raw_text": "KL02BP7403",
+      "confidence": 0.8868321210145951,
+      "recognized": false
+    }
+  ],
+  "dataset2.jpg": [
+    {
+      "box": [
+        490,
+        351,
+        589,
+        375
+      ],
+      "raw_text": "UP32CRO423",
+      "confidence": 0.9959088087081909,
+      "recognized": true
+    },
+    {
+      "box": [
+        38,
+        337,
+        135,
+        364
+      ],
+      "raw_text": "DL3CCA1750",
+      "confidence": 0.9965907633304596,
+      "recognized": true
+    },
+    {
+      "box": [
+        347,
+        313,
+        383,
+        325
+      ],
+      "raw_text": "DLN46",
+      "confidence": 0.846461832523346,
+      "recognized": false
+    }
+  ],
+  "dataset3.jpg": [
+    {
+      "box": [
+        264,
+        290,
+        326,
+        315
+      ],
+      "raw_text": "JK02BA5065",
+      "confidence": 0.9270427197217941,
+      "recognized": false
+    }
+  ],
+  "dataset4.jpg": [
+    {
+      "box": [
+        176,
+        423,
+        240,
+        456
+      ],
+      "raw_text": "DL3SCW6192",
+      "confidence": 0.993811845779419,
+      "recognized": true
+    },
+    {
+      "box": [
+        505,
+        510,
+        589,
+        556
+      ],
+      "raw_text": "DL5SAH9529",
+      "confidence": 0.9949088871479035,
+      "recognized": true
+    }
+  ],
+  "dataset5.jpg": [
+    {
+      "box": [
+        362,
+        282,
+        417,
+        299
+      ],
+      "raw_text": "RJ45CJ6865",
+      "confidence": 0.9962110340595245,
+      "recognized": true
+    }
+  ],
+  "dataset6.jpg": [
+    {
+      "box": [
+        109,
+        280,
+        170,
+        297
+      ],
+      "raw_text": "HP885801",
+      "confidence": 0.9983830526471138,
+      "recognized": true
+    },
+    {
+      "box": [
+        765,
+        273,
+        830,
+        291
+      ],
+      "raw_text": "KL43C5336",
+      "confidence": 0.9969300892617967,
+      "recognized": true
+    },
+    {
+      "box": [
+        341,
+        214,
+        366,
+        225
+      ],
+      "raw_text": "31SS7",
+      "confidence": 0.5312843799591065,
+      "recognized": false
+    }
+  ],
+  "dataset7.jpg": [
+    {
+      "box": [
+        569,
+        503,
+        732,
+        604
+      ],
+      "raw_text": "WB02F1145",
+      "confidence": 0.9978191786342197,
+      "recognized": true
+    }
+  ],
+  "dataset8.jpg": [
+    {
+      "box": [
+        209,
+        193,
+        346,
+        258
+      ],
+      "raw_text": "WB34CG4538",
+      "confidence": 0.984997171163559,
+      "recognized": true
+    }
+  ],
+  "dataset9.jpg": [
+    {
+      "box": [
+        640,
+        213,
+        1080,
+        459
+      ],
+      "raw_text": "BLESSINGSOFBAAPUUP14DJ1422",
+      "confidence": 0.985778978237739,
+      "recognized": false
+    },
+    {
+      "box": [
+        159,
+        269,
+        515,
+        581
+      ],
+      "raw_text": "RJ23PA2262",
+      "confidence": 0.9995926260948181,
+      "recognized": true
+    },
+    {
+      "box": [
+        1165,
+        891,
+        1200,
+        1010
+      ],
+      "raw_text": "IN",
+      "confidence": 0.9955794513225555,
+      "recognized": false
+    },
+    {
+      "box": [
+        146,
+        749,
+        550,
+        1028
+      ],
+      "raw_text": "RG23SM2824",
+      "confidence": 0.8301949322223663,
+      "recognized": false
+    },
+    {
+      "box": [
+        662,
+        821,
+        1075,
+        970
+      ],
+      "raw_text": "BRO6PDSCORPID5528",
+      "confidence": 0.9195834713823655,
+      "recognized": false
+    },
+    {
+      "box": [
+        665,
+        822,
+        720,
+        931
+      ],
+      "raw_text": "SET",
+      "confidence": 0.5172794759273529,
+      "recognized": false
+    }
+  ]
+}

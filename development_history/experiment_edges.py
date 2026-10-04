@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('outputs/PlateVision1/src/character_segmenter.py');s=p.read_text().replace('            count, labels, stats, _ = cv2.connectedComponentsWithStats(mask, 8)','            mask=cv2.copyMakeBorder(mask,4,4,4,4,cv2.BORDER_CONSTANT,value=0)\n            count, labels, stats, _ = cv2.connectedComponentsWithStats(mask, 8)').replace('25 <= h <= 118','25 <= h <= 128').replace('x+w >= gray.shape[1]','x+w >= mask.shape[1]');p.write_text(s)

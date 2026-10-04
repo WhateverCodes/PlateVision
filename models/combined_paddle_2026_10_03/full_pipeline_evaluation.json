@@ -1,0 +1,23 @@
+{
+  "scope": "45 development plate crops, repeatedly used for selection; not independent-test or full-photo accuracy.",
+  "models": {
+    "baseline": {
+      "images": 45,
+      "characters": 440,
+      "exact": 34,
+      "accepted_correct": 29,
+      "accepted_wrong": 3,
+      "character_errors": 21,
+      "results_omitted_count": 45
+    },
+    "candidate": {
+      "images": 45,
+      "characters": 440,
+      "exact": 34,
+      "accepted_correct": 33,
+      "accepted_wrong": 4,
+      "character_errors": 18,
+      "results_omitted_count": 45
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "data": "..\\..\\work\\smoke_data\\plates",
+  "out": "..\\..\\work\\budget_detector",
+  "epochs": 1,
+  "batch_size": 2,
+  "image_size": 64,
+  "lr": 0.001,
+  "threads": 2,
+  "max_minutes": 1.0,
+  "cooldown": 0.0,
+  "seed": 42,
+  "device": "cpu",
+  "resume": "..\\..\\work\\budget_detector\\last.pt",
+  "no_augmentation": false,
+  "limit_train": 4,
+  "limit_val": 2
+}

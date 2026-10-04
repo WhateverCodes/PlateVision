@@ -1,0 +1,73 @@
+{
+  "method": "Final CTC linear layer adaptation only; frozen pretrained features, existing ONNX weights, PyTorch CTC loss. Not full PaddleOCR fine-tuning.",
+  "training_images": 981,
+  "validation_images": 26,
+  "baseline": {
+    "exact": 16,
+    "images": 26,
+    "results_omitted_count": 26
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.47432163565010743,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 2,
+      "loss": 0.3035254628862239,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 3,
+      "loss": 0.2513183070265317,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 4,
+      "loss": 0.2273163326341106,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 5,
+      "loss": 0.214676091731649,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 6,
+      "loss": 0.20595041598142239,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 7,
+      "loss": 0.2008411508589241,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    },
+    {
+      "epoch": 8,
+      "loss": 0.1961201298290985,
+      "exact": 18,
+      "images": 26,
+      "results_omitted_count": 26
+    }
+  ],
+  "seconds": 13.5,
+  "source_sha256": "fa1746d4404fe7cd80a5d57848432fddd831e4434a757fe0afb1f2f09a97ea7e",
+  "selected_epoch": 1,
+  "export_blend": 0.5,
+  "note": "Validation subset is development data, not an independent test. Full 45-crop pipeline comparison required before promotion."
+}

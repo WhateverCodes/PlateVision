@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "new_steps": 104,
+  "training_seconds": 13.562999999994645,
+  "seconds_per_step": 0.13041346153841005,
+  "epoch": 15,
+  "cursor": 0,
+  "parameters": 152325,
+  "threads": 2,
+  "batch_size": 8,
+  "checkpoint": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\models\\plate_reader_normalized\\last.pt",
+  "note": "Timing excludes startup and file integrity checks. This is not evidence of recognition accuracy."
+}

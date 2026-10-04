@@ -1,0 +1,18 @@
+{
+  "data": "data\\combined_training_2026_10_03\\detector_indian",
+  "out": "models\\combined_detector_indian_2026_10_03",
+  "epochs": 1,
+  "batch_size": 4,
+  "image_size": 320,
+  "lr": 5e-05,
+  "threads": 2,
+  "max_minutes": 4.0,
+  "cooldown": 0.03,
+  "seed": 42,
+  "device": "cpu",
+  "resume": null,
+  "initialize": "models\\combined_detector_2026_10_03\\last.pt",
+  "no_augmentation": false,
+  "limit_train": 0,
+  "limit_val": 0
+}

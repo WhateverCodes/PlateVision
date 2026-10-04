@@ -1,0 +1,88 @@
+{
+  "baseline": {
+    "exact": 14,
+    "accepted_correct": 9,
+    "accepted_wrong": 2,
+    "character_errors": 118,
+    "results_omitted_count": 45
+  },
+  "training_images": 4807,
+  "external_images": 3500,
+  "note": "Same existing 45 development crops; external glyph parent/source independence unknown. No independent-test claim. Existing weights preserved.",
+  "trials": [
+    {
+      "exact": 15,
+      "accepted_correct": 8,
+      "accepted_wrong": 1,
+      "character_errors": 134,
+      "results_omitted_count": 45,
+      "lr": 1e-05,
+      "stage": 1,
+      "steps": 60,
+      "loss": 0.9635504240791003,
+      "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr1e-05_stage1.pt"
+    },
+    {
+      "exact": 15,
+      "accepted_correct": 7,
+      "accepted_wrong": 0,
+      "character_errors": 133,
+      "results_omitted_count": 45,
+      "lr": 1e-05,
+      "stage": 2,
+      "steps": 60,
+      "loss": 0.7860844514643153,
+      "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr1e-05_stage2.pt"
+    },
+    {
+      "exact": 15,
+      "accepted_correct": 7,
+      "accepted_wrong": 0,
+      "character_errors": 134,
+      "results_omitted_count": 45,
+      "lr": 1e-05,
+      "stage": 3,
+      "steps": 60,
+      "loss": 0.6685206513851881,
+      "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr1e-05_stage3.pt"
+    },
+    {
+      "exact": 16,
+      "accepted_correct": 6,
+      "accepted_wrong": 0,
+      "character_errors": 140,
+      "results_omitted_count": 45,
+      "lr": 3e-05,
+      "stage": 1,
+      "steps": 60,
+      "loss": 0.9794950406998396,
+      "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr3e-05_stage1.pt"
+    },
+    {
+      "exact": 13,
+      "accepted_correct": 2,
+      "accepted_wrong": 0,
+      "character_errors": 145,
+      "results_omitted_count": 45,
+      "lr": 3e-05,
+      "stage": 2,
+      "steps": 60,
+      "loss": 0.6699008509516716,
+      "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr3e-05_stage2.pt"
+    },
+    {
+      "exact": 14,
+      "accepted_correct": 1,
+      "accepted_wrong": 0,
+      "character_errors": 148,
+      "results_omitted_count": 45,
+      "lr": 3e-05,
+      "stage": 3,
+      "steps": 60,
+      "loss": 0.5168469994018475,
+      "checkpoint": "models\\external_glyph_trial_2026_10_03\\lr3e-05_stage3.pt"
+    }
+  ],
+  "seconds": 63.96899999999732,
+  "promoted": false
+}

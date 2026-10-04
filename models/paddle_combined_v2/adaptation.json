@@ -1,0 +1,7 @@
+{
+  "training_lines": 981,
+  "label_description": "training lines with mixed human-reviewed and unverified source labels",
+  "method": "Final CTC projection only, eight epochs, selected epoch1, 50% blend into prior adapted model; pretrained feature network unchanged",
+  "source_sha256": "fa1746d4404fe7cd80a5d57848432fddd831e4434a757fe0afb1f2f09a97ea7e",
+  "threshold": 0.91
+}

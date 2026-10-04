@@ -1,0 +1,13 @@
+{
+  "status": "paused-budget",
+  "new_steps": 442,
+  "training_seconds": 120.10900000001129,
+  "seconds_per_step": 0.2717398190045504,
+  "epoch": 12,
+  "cursor": 696,
+  "parameters": 151845,
+  "threads": 2,
+  "batch_size": 8,
+  "checkpoint": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\models\\plate_reader_pilot\\last.pt",
+  "note": "Timing excludes startup and file integrity checks. This is not evidence of recognition accuracy."
+}

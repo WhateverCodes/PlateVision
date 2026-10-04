@@ -1,0 +1,8 @@
+{
+  "images": 45,
+  "exact": 31,
+  "accepted_correct": 27,
+  "accepted_wrong": 3,
+  "character_errors": 25,
+  "results_omitted_count": 45
+}

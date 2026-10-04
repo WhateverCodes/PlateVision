@@ -1,0 +1,32 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "samples": 1509,
+      "complete": true,
+      "loss": 0.1900504607388798
+    },
+    {
+      "epoch": 2,
+      "samples": 1509,
+      "complete": true,
+      "loss": 0.1366268245440354
+    },
+    {
+      "epoch": 3,
+      "samples": 1509,
+      "complete": true,
+      "loss": 0.13412774355700666
+    },
+    {
+      "epoch": 4,
+      "samples": 1509,
+      "complete": true,
+      "loss": 0.10773237737610374
+    }
+  ],
+  "seconds": 19.64000000001397,
+  "training_glyphs": 1509,
+  "reviewed_plate_groups": 54,
+  "provenance": "Own CNN weights; reviewed training plate labels with automatic glyph alignment, synthetic replay and mild augmentation. No pretrained OCR weights or evaluation images used."
+}

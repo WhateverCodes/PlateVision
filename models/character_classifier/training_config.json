@@ -1,0 +1,17 @@
+{
+  "data": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\data\\synthetic\\characters",
+  "out": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\models\\character_classifier",
+  "epochs": 30,
+  "batch_size": 32,
+  "image_size": 320,
+  "lr": 0.001,
+  "threads": 2,
+  "max_minutes": 2.0,
+  "cooldown": 0.1,
+  "seed": 42,
+  "device": "cpu",
+  "resume": "${ORIGINAL_WORKSPACE}\\outputs\\PlateVision\\models\\character_classifier\\last.pt",
+  "no_augmentation": false,
+  "limit_train": 0,
+  "limit_val": 0
+}

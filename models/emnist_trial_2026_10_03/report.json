@@ -1,0 +1,40 @@
+{
+  "baseline": {
+    "exact": 14,
+    "accepted_correct": 9,
+    "accepted_wrong": 2,
+    "character_errors": 118,
+    "results_omitted_count": 45
+  },
+  "training_images": 2747,
+  "external_images": 1440,
+  "note": "Same existing 45 development crops; EMNIST official training partition sampled; 45 real-plate development crops used for selection. No independent-test claim. Existing weights preserved.",
+  "trials": [
+    {
+      "exact": 15,
+      "accepted_correct": 7,
+      "accepted_wrong": 0,
+      "character_errors": 129,
+      "results_omitted_count": 45,
+      "lr": 1e-05,
+      "stage": 1,
+      "steps": 60,
+      "loss": 2.209634104867776,
+      "checkpoint": "models\\emnist_trial_2026_10_03\\lr1e-05_stage1.pt"
+    },
+    {
+      "exact": 15,
+      "accepted_correct": 6,
+      "accepted_wrong": 0,
+      "character_errors": 137,
+      "results_omitted_count": 45,
+      "lr": 1e-05,
+      "stage": 2,
+      "steps": 60,
+      "loss": 1.7600126688679059,
+      "checkpoint": "models\\emnist_trial_2026_10_03\\lr1e-05_stage2.pt"
+    }
+  ],
+  "seconds": 11.562999999994645,
+  "promoted": false
+}

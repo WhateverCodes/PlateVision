@@ -1,0 +1,37 @@
+{
+  "baseline": {
+    "exact": 14,
+    "accepted_correct": 9,
+    "accepted_wrong": 2,
+    "character_errors": 118,
+    "results_omitted_count": 45
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.7433403657336614,
+      "checkpoint": "models\\combined_cnn_2026_10_03\\epoch1.pt",
+      "exact": 14,
+      "accepted_correct": 5,
+      "accepted_wrong": 0,
+      "character_errors": 145,
+      "results_omitted_count": 45
+    },
+    {
+      "epoch": 2,
+      "loss": 0.504482688839564,
+      "checkpoint": "models\\combined_cnn_2026_10_03\\epoch2.pt",
+      "exact": 16,
+      "accepted_correct": 5,
+      "accepted_wrong": 0,
+      "character_errors": 140,
+      "results_omitted_count": 45
+    }
+  ],
+  "training_images": 43998,
+  "new_examples": 42691,
+  "unique_new_examples_seen": 42691,
+  "seconds": 240.35900000002584,
+  "promoted": false,
+  "note": "Development crop scores, not independent-test accuracy. Weak source labels not individually verified."
+}

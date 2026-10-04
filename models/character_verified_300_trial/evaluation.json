@@ -1,0 +1,53 @@
+{
+  "baseline": {
+    "exact": 13,
+    "accepted_correct": 8,
+    "accepted_wrong": 1,
+    "character_errors": 131,
+    "results_omitted_count": 45
+  },
+  "candidates": [
+    {
+      "exact": 11,
+      "accepted_correct": 8,
+      "accepted_wrong": 1,
+      "character_errors": 140,
+      "results_omitted_count": 45,
+      "stage": 1,
+      "steps": 60,
+      "mean_loss": 0.2593749704460303
+    },
+    {
+      "exact": 12,
+      "accepted_correct": 8,
+      "accepted_wrong": 2,
+      "character_errors": 140,
+      "results_omitted_count": 45,
+      "stage": 2,
+      "steps": 60,
+      "mean_loss": 0.2714659691943477
+    },
+    {
+      "exact": 12,
+      "accepted_correct": 8,
+      "accepted_wrong": 4,
+      "character_errors": 142,
+      "results_omitted_count": 45,
+      "stage": 3,
+      "steps": 60,
+      "mean_loss": 0.23460747478529811
+    }
+  ],
+  "note": "45 development crops repeatedly used for selection; not an independent final evaluation. No evaluation examples used in gradient updates.",
+  "elapsed_seconds": 20.906000000002678,
+  "training_configuration": {
+    "base": "models/character_conservative_v1/last.pt",
+    "data": "data/character_verified_300/train.json",
+    "freeze_features": false,
+    "cpu_threads": 2,
+    "seed": 42,
+    "learning_rate": 1e-05,
+    "batch_size": 24,
+    "maximum_training_seconds": 90
+  }
+}

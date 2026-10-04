@@ -1,0 +1,26 @@
+[
+  {
+    "exact": 13,
+    "accepted_correct": 8,
+    "accepted_wrong": 1,
+    "character_errors": 131,
+    "results_omitted_count": 45,
+    "stage": 1
+  },
+  {
+    "exact": 13,
+    "accepted_correct": 8,
+    "accepted_wrong": 1,
+    "character_errors": 131,
+    "results_omitted_count": 45,
+    "stage": 2
+  },
+  {
+    "exact": 13,
+    "accepted_correct": 8,
+    "accepted_wrong": 1,
+    "character_errors": 132,
+    "results_omitted_count": 45,
+    "stage": 3
+  }
+]

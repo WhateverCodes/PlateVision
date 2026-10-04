@@ -1,0 +1,17 @@
+{
+  "data": "..\\..\\work\\smoke_data\\characters",
+  "out": "..\\..\\work\\smoke_characters",
+  "epochs": 1,
+  "batch_size": 32,
+  "image_size": 320,
+  "lr": 0.001,
+  "threads": 2,
+  "max_minutes": 1.0,
+  "cooldown": 0.05,
+  "seed": 42,
+  "device": "cpu",
+  "resume": null,
+  "no_augmentation": false,
+  "limit_train": 72,
+  "limit_val": 36
+}
