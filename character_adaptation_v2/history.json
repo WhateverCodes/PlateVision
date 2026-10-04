@@ -1,0 +1,20 @@
+[
+  {
+    "epoch": 1,
+    "samples_seen": 4122,
+    "loss": 0.3323693290146765,
+    "complete": true
+  },
+  {
+    "epoch": 2,
+    "samples_seen": 4122,
+    "loss": 0.18016847835384645,
+    "complete": true
+  },
+  {
+    "epoch": 3,
+    "samples_seen": 528,
+    "loss": 0.12870117725635116,
+    "complete": false
+  }
+]
